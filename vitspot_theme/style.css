@@ -38,10 +38,20 @@ body{
  }
 
 .text-box{
-  border:5px;
+  
   width:10rem;
-  border-style: groove;
-  border-color: rgba(122, 120, 114, 0.6);
+  border:solid;
+  border-radius:24px;
+  padding-left:5px;
+  background: none;
+  border-color: white;
+  
+}
+
+.text-box:focus{
+  width:13rem;
+  border-color: #f1931f;
+
 }
 
 .caption .btn{
@@ -138,10 +148,19 @@ h3 .heading{
   margin:0 auto 2rem;
 
 }
+.feature{
+  border:solid;
+  margin-bottom:20px;
+}
+
+.feature a{
+  margin-bottom:30px;
+}
 
 .feature svg.svg-inline--fa{
   color:#f1931f;
-  margin-top:-50px;
+  margin-top:20px;
+  
 }
 
 .feature h3{
