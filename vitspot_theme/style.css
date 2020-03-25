@@ -40,19 +40,19 @@ body{
 .text-box{
   
   width:10rem;
-  border:solid;
+  
   border-radius:24px;
   padding-left:5px;
-  background: none;
+  background: white;
   border-color: white;
+  padding: 4px 12px;  
   
 }
 
-.text-box:focus{
-  width:13rem;
-  border-color: #f1931f;
-
+.text-box:focus {
+  outline: none;
 }
+
 
 .caption .btn{
   color:rgb(247, 144, 75);
